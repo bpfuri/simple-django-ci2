@@ -7,4 +7,4 @@ class ItemTests(TestCase):
     def test_hoge(self):
         item = Item(name="sample", price=100)
         actual = item.get_price_included_taxes()
-        self.assertEqual(actual, 100)
+        self.assertEqual(actual, 108)
